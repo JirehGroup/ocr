@@ -1,0 +1,51 @@
+// structure.txt
+
+amharic/
+│   ├── next/
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── fonts/
+│   │   │   └── entoto.ttf
+│   │   ├── images/
+│   │   └── favicon.png
+│   │       
+│   │
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── providers.tsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Header.tsx
+│   │   │   │   ├── LanguageToggle.tsx
+│   │   │   │   └── ThemeToggle.tsx
+│   │   │   │
+│   │   │   ├── context/
+│   │   │   │   ├── LanguageContext.tsx
+│   │   │   │   └── ThemeContext.tsx
+│   │   │   │
+│   │   │   └── ui/
+│   │   │       ├── aceternity/
+│   │   │       └── other shadcn/uis ...
+│   │   │
+│   │   ├── lib/
+│   │   │   └── utils.ts
+│   │   │   
+│   │   └── translations/
+│   │       ├── am.ts
+│   │       ├── en.ts
+│   │       └── index.ts
+│   │  
+│   ├── .gitignore
+│   ├── components.json
+│   ├── eslint.config.mjs
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.ts
+│   ├── README.md
+│   └── tsconfig.json
